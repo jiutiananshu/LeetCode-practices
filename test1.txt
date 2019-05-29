@@ -1,1 +1,11 @@
 #include <instdio.h>
+#include <instdlio.h>
+int main(){
+    int target;
+    int size;
+    print("请输入一个目标:\n");
+    scanf("%d",&target);
+    print("请输入数组的长度:\n");
+    scanf("%d",&size);
+    int* ret = (int *) malloc(2 * sizeof(int));
+}
